@@ -1,1 +1,0 @@
-screen.blit(text_surface, (130, 50))
