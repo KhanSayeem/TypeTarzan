@@ -47,7 +47,7 @@ class Player:
         if self.typing_start_time is None:
             return 0
         elapsed_mins = (time.time() - self.typing_start_time) / 60
-        if elapsed_mins == 0:
+        if elapsed_mins < 0.05:
             return 0
         return (len(self.user_input) / 5) / elapsed_mins
     def reset(self):
