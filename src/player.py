@@ -1,5 +1,4 @@
 import time
-
 class Player:
     def __init__(self, name="Player"):
         self.name = name
@@ -9,8 +8,8 @@ class Player:
         self.last_typed_time = None
         self.idle_threshold = 1.5
         self.decay_rate = 0.98
-
     def handle_keypress(self, event, target_text):
+        import pygame
         if event.type == pygame.TEXTINPUT:
             if len(self.user_input) < len(target_text):
                 if self.typing_start_time is None:
@@ -44,7 +43,6 @@ class Player:
             if i < len(target_text) and ch == target_text[i]
         )
         return round((correct / len(self.user_input)) * 100)
-
     def _calculate_wpm(self):
         if self.typing_start_time is None:
             return 0
@@ -52,7 +50,6 @@ class Player:
         if elapsed_mins == 0:
             return 0
         return (len(self.user_input) / 5) / elapsed_mins
-
     def reset(self):
         self.user_input = ""
         self.wpm = 0
