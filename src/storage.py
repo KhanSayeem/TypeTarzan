@@ -32,14 +32,14 @@ class Storage:
         data = self._read()
 
         if result == "win":
-            data[wins] += 1
+            data["wins"] += 1
         else:
-            data[losses] += 1
+            data["losses"] += 1
 
         if wpm > data["best_wpm"]:
-            data[best_wpm] = wpm
+            data["best_wpm"] = wpm
         
-        data[high_scores].append({
+        data["high_scores"].append({
             "wpm": wpm,
             "difficulty": difficulty,
             "result": result,
@@ -52,7 +52,7 @@ class Storage:
         
         self._write(data)
 
-        def get_stats(self):
+    def get_stats(self):
             data = self._read()
             return{
                 "wins": data["wins"],
@@ -60,6 +60,6 @@ class Storage:
                 "best_wpm": data["best_wpm"]
             }
         
-        def get_highscores(self):
+    def get_highscores(self):
             data = self._read()
             return data["high_scores"]

@@ -1,0 +1,31 @@
+{
+    "wins": 2,
+    "losses": 2,
+    "best_wpm": 65,
+    "high_scores": [
+        {
+            "wpm": 65,
+            "difficulty": "hard",
+            "result": "loss",
+            "date": "2026-03-23"
+        },
+        {
+            "wpm": 65,
+            "difficulty": "hard",
+            "result": "loss",
+            "date": "2026-03-23"
+        },
+        {
+            "wpm": 43,
+            "difficulty": "medium",
+            "result": "win",
+            "date": "2026-03-23"
+        },
+        {
+            "wpm": 35,
+            "difficulty": "medium",
+            "result": "win",
+            "date": "2026-03-23"
+        }
+    ]
+}
