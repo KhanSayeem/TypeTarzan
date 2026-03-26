@@ -15,7 +15,7 @@ class HighScoresScreen(BaseScreen):
         self.font_small = pygame.font.SysFont("Consolas", 20)
         self.scores = []
     def on_enter(self):
-        self.scores = self.storage.get_high_scores()
+        self.scores = self.storage.get_highscores()
     def handle_events(self, events):
         for event in events:
             if event.type == pygame.KEYDOWN:
