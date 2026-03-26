@@ -1,31 +1,67 @@
 {
-    "wins": 2,
-    "losses": 2,
-    "best_wpm": 65,
+    "wins": 14,
+    "losses": 20,
+    "best_wpm": 4194304,
     "high_scores": [
         {
-            "wpm": 65,
-            "difficulty": "hard",
-            "result": "loss",
-            "date": "2026-03-23"
-        },
-        {
-            "wpm": 65,
-            "difficulty": "hard",
-            "result": "loss",
-            "date": "2026-03-23"
-        },
-        {
-            "wpm": 43,
-            "difficulty": "medium",
+            "wpm": 4194304,
+            "difficulty": "easy",
             "result": "win",
-            "date": "2026-03-23"
+            "date": "2026-03-26"
         },
         {
-            "wpm": 35,
-            "difficulty": "medium",
+            "wpm": 2960685,
+            "difficulty": "easy",
             "result": "win",
-            "date": "2026-03-23"
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 2188332,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 1006632,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 245,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 189,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 177,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 158,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 157,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
+        },
+        {
+            "wpm": 131,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-26"
         }
     ]
 }

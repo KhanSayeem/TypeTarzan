@@ -46,8 +46,10 @@ class Player:
     def _calculate_wpm(self):
         if self.typing_start_time is None:
             return 0
+        if len(self.user_input) < 5:
+            return 0
         elapsed_mins = (time.time() - self.typing_start_time) / 60
-        if elapsed_mins < 0.05:
+        if elapsed_mins == 0:
             return 0
         return (len(self.user_input) / 5) / elapsed_mins
     def reset(self):
