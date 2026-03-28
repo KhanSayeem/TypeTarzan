@@ -1,7 +1,7 @@
 # TypeTarzan
 
 ## Overview
-TypeTarzan is a minimalistic type racing game built using Pygame. The goal of the game is to type the provided text as fast as you can while competing against others or trying to beat your own score.
+TypeTarzan is a minimalistic type racing game built using Pygame. The goal of the game is to type the provided text as fast as you can while competing against a computer or others (in future).
 
 ## Installation
 To install TypeTarzan, ensure you have Python and Pygame installed on your machine. You can install Pygame using pip:
@@ -29,15 +29,4 @@ To start the game, run the following command from the project directory:
 python main.py
 ```
 
-Follow the on-screen instructions to start racing against time!
-
-## Project Structure
-```
-TypeTarzan/
-├── main.py         # Main game file
-├── game.py         # Game logic and mechanics
-├── assets/         # Contains images, sounds, and other assets
-│   ├── fonts/      # Fonts used in the game
-│   └── images/     # Images for the game
-└── README.md      # Project documentation
-```
+Follow the on-screen instructions to start racing.
