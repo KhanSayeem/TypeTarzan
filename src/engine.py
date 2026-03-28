@@ -33,13 +33,16 @@ class GameEngine:
     def update(self):
         if not self.running:
             return
+
         self.player.apply_idle_decay()
-        target_speed = min(self.player.get_speed(), 10)
-        self.player_car.speed += (target_speed - self.player_car.speed) * 0.05
+        self.player_car.speed = self.player.get_speed()
+
         self.computer_car.move()
         self.player_car.move()
+
         avg_speed   = (self.player_car.speed + self.computer_car.speed) / 2
         self.scroll = (self.scroll + avg_speed) % self.road_height
+
         if self.player_car.has_won():
             self.winner  = "player"
             self.running = False

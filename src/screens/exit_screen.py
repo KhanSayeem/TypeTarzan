@@ -38,6 +38,7 @@ class ExitScreen(BaseScreen):
             ("Losses", str(losses)),
             ("Win Rate", f"{win_rate}%"),
             ("Best WPM", str(best_wpm)),
+            ("Avg WPM", str(self.stats.get("avg_wpm", 0))),
         ]
         for i, (label, value) in enumerate(stats):
             label_surf = self.font_stat.render(label, True, (150, 150, 150))
