@@ -1,13 +1,118 @@
 {
-    "wins": 1,
-    "losses": 0,
-    "best_wpm": 72,
+    "wins": 6,
+    "losses": 10,
+    "best_wpm": 76,
     "high_scores": [
+        {
+            "id": 5,
+            "wpm": 76,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 6,
+            "wpm": 76,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-28"
+        },
         {
             "id": 1,
             "wpm": 72,
             "difficulty": "easy",
             "result": "win",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 15,
+            "wpm": 72,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 9,
+            "wpm": 48,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 10,
+            "wpm": 36,
+            "difficulty": "easy",
+            "result": "win",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 7,
+            "wpm": 24,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 13,
+            "wpm": 20,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 14,
+            "wpm": 16,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 11,
+            "wpm": 3,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 2,
+            "wpm": 0,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 3,
+            "wpm": 0,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 4,
+            "wpm": 0,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 8,
+            "wpm": 0,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 12,
+            "wpm": 0,
+            "difficulty": "easy",
+            "result": "loss",
+            "date": "2026-03-28"
+        },
+        {
+            "id": 16,
+            "wpm": 0,
+            "difficulty": "easy",
+            "result": "loss",
             "date": "2026-03-28"
         }
     ]

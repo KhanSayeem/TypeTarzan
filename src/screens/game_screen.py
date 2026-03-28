@@ -57,7 +57,7 @@ class GameScreen(BaseScreen):
         pygame.draw.line(self.screen, (60, 60, 80), (0, 540), (1000, 540), 2)
         self._draw_target_text()
         wpm_surf = self.font_ui.render(f"WPM: {int(self.player.wpm)}", True, (255, 220, 50))
-        self.screen.blit(wpm_surf, (20, 545))
+        self.screen.blit(wpm_surf, (20, 145))
         esc = self.font_small.render("ESC — quit race", True, (80, 80, 80))
         self.screen.blit(esc, (820, 578))
     def _draw_target_text(self):
